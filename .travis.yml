@@ -9,5 +9,5 @@ before_install:
   
 jobs:
   include:
-    - script: pytest test_pswd.py
+    - script: pytest FtoC.py
       name: "Test password.py"
